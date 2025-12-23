@@ -1,3 +1,7 @@
+## 🛠️ Tools
+- scan_headers.py – Checks HTTP security headers and warns if missing.
+- url_params_finder.py – Extracts URL query parameters for IDOR/XSS testing.
+
 # Security Write-ups 🛡️
 
 This repository contains my security research, vulnerability write-ups,
