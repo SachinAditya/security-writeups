@@ -1,5 +1,13 @@
 import requests
 
+SECURITY_HEADERS = [
+    "Content-Security-Policy",
+    "X-Frame-Options",
+    "X-Content-Type-Options",
+    "Strict-Transport-Security",
+    "Referrer-Policy"
+]
+
 url = input("Enter target URL (with http/https): ")
 
 try:
@@ -7,8 +15,17 @@ try:
     print("\n[+] Status Code:", r.status_code)
     print("[+] Response Headers:\n")
 
-    for k, v in r.headers.items():
+    headers = r.headers
+    for k, v in headers.items():
         print(f"{k}: {v}")
+
+    print("\n[+] Security Header Check:")
+    for h in SECURITY_HEADERS:
+        if h in headers:
+            print(f"[OK] {h} is present")
+        else:
+            print(f"[WARN] {h} is MISSING")
 
 except Exception as e:
     print("[-] Error:", e)
+
