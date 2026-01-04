@@ -13,6 +13,13 @@ and preparation for Google Summer of Code (GSoC) 2026.
 - Scripts and small tools for testing
 - Notes from labs and practice (OWASP, PortSwigger, TryHackMe)
 
+## 🔐 Open Source Contributions
+
+- Active contributor to **OWASP ZAP**
+  - Documentation improvements in `zap-api-docs`
+  - Working on security-focused API usage and automation examples
+- Interested in building practical tooling for real-world security testing
+
 ## 🎯 Focus Areas
 - Web Penetration Testing
 - OWASP Top 10 (XSS, SQLi, CSRF, IDOR, SSRF)
