@@ -1,7 +1,7 @@
 ## 🛠️ Tools
 - scan_headers.py – Checks HTTP security headers and warns if missing.
 - url_params_finder.py – Extracts URL query parameters for IDOR/XSS testing.
-- - zap_header_alerts.py – Automates detection of missing security headers using OWASP ZAP API alerts.
+- zap_header_alerts.py – Automates detection of missing security headers using OWASP ZAP API alerts.
 
 
 # Security Write-ups 🛡️
