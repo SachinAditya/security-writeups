@@ -1,40 +1,60 @@
-## 🛠️ Tools
-- scan_headers.py – Checks HTTP security headers and warns if missing.
-- url_params_finder.py – Extracts URL query parameters for IDOR/XSS testing.
-- zap_header_alerts.py – Automates detection of missing security headers using OWASP ZAP API alerts.
-
-
-# Security Write-ups 🛡️
+# Security Write-ups & Tools 🛡️
 
 This repository contains my security research, vulnerability write-ups,
-and proof-of-concepts (PoCs) as part of my learning in cybersecurity
+and proof-of-concepts (PoCs) created as part of my learning in cybersecurity
 and preparation for Google Summer of Code (GSoC) 2026.
 
+---
+
+## 🛠️ Tools
+
+- **scan_headers.py** – Checks HTTP security headers and warns if critical headers are missing.
+- **url_params_finder.py** – Extracts URL query parameters for IDOR, XSS, and logic-flaw testing.
+- **zap_header_alerts.py** – Automates detection of missing security headers using OWASP ZAP API alerts.
+
+---
+
 ## 📂 Contents
-- PDF write-ups of vulnerabilities
-- Scripts and small tools for testing
+
+- PDF vulnerability write-ups  
+- Security testing scripts & small tools  
 - Notes from labs and practice (OWASP, PortSwigger, TryHackMe)
+
+---
 
 ## 🔐 Open Source Contributions
 
-- Active contributor to **OWASP ZAP**
+- ✅ **OWASP Dependency-Check**
+  - Merged PR: Documents external data sources & hostnames  
+    https://github.com/dependency-check/DependencyCheck/pull/8219
+
+- ✅ **OWASP ZAP**
   - Documentation improvements in `zap-api-docs`
-  - Working on security-focused API usage and automation examples
-- Interested in building practical tooling for real-world security testing
+  - Working on API usage guidance and automation examples
+
+---
 
 ## 🎯 Focus Areas
-- Web Penetration Testing
-- OWASP Top 10 (XSS, SQLi, CSRF, IDOR, SSRF)
-- Network basics & scanning
-- Secure coding practices
+
+- Web Penetration Testing  
+- OWASP Top 10 (XSS, SQLi, CSRF, IDOR, SSRF)  
+- Recon & vulnerability discovery  
+- Automation with OWASP ZAP  
+- Secure coding practices  
+
+---
 
 ## ⚖️ Ethics
-All research here is done on labs, test environments,
-or systems where I have permission. No illegal testing.
+
+All research here is performed on intentionally vulnerable labs,
+test environments, or systems where I have explicit permission.
+No illegal or unauthorized testing.
+
+---
 
 ## 👤 About Me
-I am an aspiring cybersecurity contributor interested in building
-open-source security tools and contributing to the community.
+
+Aspiring cybersecurity contributor focused on open-source security tooling
+and web application security research.
 
 GitHub: https://github.com/SachinAditya
-
